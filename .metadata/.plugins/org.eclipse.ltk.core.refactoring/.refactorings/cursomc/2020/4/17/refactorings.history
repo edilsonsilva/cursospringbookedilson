@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.examplo.cursomc.services.validation.ClientInsertValidator.java&apos; to &apos;ClienteInsertValidator.java&apos;&#x0D;&#x0A;- Original project: &apos;cursomc&apos;&#x0D;&#x0A;- Original element: &apos;com.examplo.cursomc.services.validation.ClientInsertValidator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.examplo.cursomc.services.validation.ClienteInsertValidator.java&apos;" description="Rename compilation unit &apos;ClientInsertValidator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.examplo.cursomc.services.validation{ClientInsertValidator.java" name="ClienteInsertValidator.java" references="false" stamp="1587565302942" version="1.0"/>
+</session>

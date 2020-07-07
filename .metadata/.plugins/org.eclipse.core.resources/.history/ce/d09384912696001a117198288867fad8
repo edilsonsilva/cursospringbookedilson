@@ -1,0 +1,15 @@
+package com.examplo.cursomc.repositories;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
+import org.springframework.stereotype.Repository;
+
+import com.examplo.cursomc.domain.Produto;
+
+@Repository
+public interface ProdutoRepository extends JpaRepositoryImplementation<Produto, Integer> {
+	@Query("SELECT DISTINCT obj FROM Produto obj INNER JOIN obj.categorias cat WHERE obj.name LIKE %:nome% AND cat IN :categorias")
+	Page<Produto> search(@Param("nome") String nome, List<Categoria>categorias, Pageable pageRequest);
+	
+}

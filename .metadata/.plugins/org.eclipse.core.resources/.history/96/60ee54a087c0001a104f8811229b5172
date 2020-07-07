@@ -1,0 +1,5 @@
+package com.examplo.cursomc.services;
+
+public class DBService {
+
+}

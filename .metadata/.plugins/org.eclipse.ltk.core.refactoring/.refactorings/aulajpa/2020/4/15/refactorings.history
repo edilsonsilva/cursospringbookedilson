@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;aulajpamaven/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;aulajpa&apos;&#x0D;&#x0A;- Destination element: &apos;aulajpamaven/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     aulajpa/src/aplicacao&#x0D;&#x0A;     aulajpa/src/dominio" description="Copy packages" destination="=aulajpamaven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;aplicacao" element2="/src&lt;dominio" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1586192482012" version="1.0"/>
+</session>

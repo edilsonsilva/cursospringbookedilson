@@ -1,0 +1,5 @@
+package com.examplo.cursomc.domain;
+
+public class ItemPedidoPK {
+
+}
